@@ -33,6 +33,18 @@ class Home extends StatelessWidget {
               ),
             ],
           ),
+          Row(
+            children: [
+              Expanded(
+                child: ElevatedButton(
+                  onPressed: () {
+                    Navigator.pushNamed(context, 'sliver3');
+                  },
+                  child: const Text('Sliver3'),
+                ),
+              ),
+            ],
+          ),
         ],
       ),
     );
